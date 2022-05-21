@@ -1,85 +1,118 @@
-![Netlify Next.js Blog Template designed by Bejamas](github-banner.svg)
+<h1 align="center">Welcome to developer-portfolio 👋</h1>
+<a href="https://github.com/vecnazmaga/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/vecnazmaga/developer-portfolio"></a><a href="https://github.com/vecnazmaga/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/vecnazmaga/developer-portfolio"></a><a href="https://github.com/vecnazmaga/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/vecnazmaga/developer-portfolio"></a> <a href="https://github.com/vecnazmaga/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/vecnazmaga/developer-portfolio"></a>
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nextjs-blog-theme)
+## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
 
-A customizable blog starter using:
+<p align="center">
+  <kbd>
+    <img src="https://github.com/vecnazmaga/developer-portfolio/blob/master/picture.PNG"></img>
+  </kbd>
+</p>
 
-- [Next.js](https://github.com/vercel/next.js) v12
-- [Tailwind](https://tailwindcss.com/) v3.0
-- Built-in [MDX](https://mdxjs.com/) v1 support
-- Includes modern design with dark & light themes
+### To view a live example, **[click here](https://https://vecnazmaga.netlify.com/)**.
 
-> 🎉 We’re really excited about the Bejamas + Netlify collaboration and we were going to celebrate it with some swag, but we realized we could put that money into supporting OSS and our ecosystem even more! After all, who needs another t-shirt or sticker?!
->
-> [Click this link](https://oss-form.netlify.app/) to vote for your favorite Open Source project!
+Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-![Preview of blog theme. Author named Jay Doe and blog's name is "Next.js Blog Theme" with one blog post](nextjs-blog-theme-preview.png)
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/vecnazmaga/developer-portfolio/issues).
 
-[Take a gander at the demo.](https://bejamas-nextjs-blog.netlify.app)
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/vecnazmaga/developer-portfolio/pulls).
 
-[Click here to watch the template walkthrough!](https://www.youtube.com/watch?v=63QZHs259dY)
+## Table of Contents
+
+-   [Sections](#sections)
+-   [Getting Started](#getting-started)
+-   [How to Use](#how-to-use)
+-   [Linking portfolio to Github](#linking-portfolio-to-github)
+-   [Change and Customize](#change-and-customize-every-section-according-to-your-need)
+-   [Technologies Used](#technologies-used)
+-   [Illustrations](#illustrations)
+-   [For the Future](#for-the-future)
+-   [Contributors](#project-maintainers)
+
+## Sections
+
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education\
+✔️ Work Experience\
+✔️ Projects\
+✔️ Github Profile
 
 ## Getting Started
 
----
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-You can get started with this project in two ways: locally or using the [setup wizard](https://nextjs-wizard.netlify.app/).
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+<br>
+**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
 
-### Setting Up Locally
-
-If you're doing it locally, start with clicking the [use this template](https://github.com/netlify-templates/nextjs-blog-theme/generate) button on GitHub. This will create a new repository with this template's files on your GitHub account. Once that is done, clone your new repository and navigate to it in your terminal.
-
-From there, you can install the project's dependencies by running:
-
-```shell
-yarn install
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
 ```
 
-Finally, you can run your project locally with:
+## How To Use
 
-```shell
-yarn run dev
+From your command line, clone and run developer-portolio:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/vecnazmaga/developer-portfolio.git
+
+# Go into the repository
+$ cd developer-portfolio
+
+# Install dependencies
+$ yarn
+
+#Start's development server
+$ yarn dev
 ```
 
-Open your browser and visit <http://localhost:3000>, your project should be running!
+## Linking Portfolio to Github
 
-### Using the Setup Wizard
+```javascript
+  //  portfolio.js
+  githubUserName: 'YOUR GITHUB USERNAME HERE',
+```
 
-![Preview of Setup Wizard showing the initial page of a setup form](nextjs-setup-wizard.png)
+#### Using Emojis
 
-Through the [setup wizard](https://nextjs-wizard.netlify.app/), you can create your blog in a few clicks and deploy to Netlify.
+For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
-## Configuring the blog
+## Technologies Used
 
-The config is based on environment variables to make it easy to integrate with any Jamstack platform, like Netlify.
+-   [Next.js](https://nextjs.org/)
+-   [axios](https://www.npmjs.com/package/axios)
+-   [reactstrap](https://reactstrap.github.io/)
+-   [react-reveal](https://www.react-reveal.com/)
+-   [react-lottie](https://www.npmjs.com/package/react-lottie)
+-   [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+-   [react-headroom](https://github.com/KyleAMathews/react-headroom)
+-   [color-thief](https://github.com/lokesh/color-thief)
 
-Here are the variables you can edit:
-| Variable | Description | Options
-| --- | --- | --- |
-| `BLOG_NAME` | the name of your blog, displayed below the avatar ||
-| `BLOG_TITLE` | the main header (`h1`) on the home page ||
-| `BLOG_FOOTER_TEXT`| the text in the footer ||
-| `BLOG_THEME` | the theme to pass to Tailwind | default |
-| `BLOG_FONT_HEADINGS` | the font-family for all HTML headings, from `h1` to `h6`| sans-serif (default), serif, monospace|
-| `BLOG_FONT_PARAGRAPHS` | the font-family for all other HTML elements | sans-serif (default), serif, monospace|
+## Illustrations
 
-All of the env variables can be configured through the [Wizard](https://nextjs-wizard.netlify.app/) or through setting the project's environment variables. You can do this in your Netlify dashaboard (Site settings/Build & deploy/Environment/Environment variables).
+-   [Lottie File Source](https://lottiefiles.com)
 
-https://user-images.githubusercontent.com/3611928/153997545-6dcdeef0-e570-49e7-93d6-ce0d393d16c9.mp4
+## For the Future
 
-[alt: video walkthrough of editing env vars]
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
-If setting an environment variable isn't your cup of tea, the defaults can be changed in [`utils/global-data.js`](/utils/global-data.js). You can also remove the variables and hard code blog information where these variables are used in the code base.
+-   Enable Dark Mode
 
-- `BLOG_THEME, BLOG_FONT_HEADINGS, & BLOG_FONT_PARAGRAPHS` are used in [`tailwind-preset.js`](tailwind-preset.js)
-- `BLOG_NAME, BLOG_TITLE, BLOG_FOOTER_TEXT` are used in [`pages/index.js`](pages/index.js) & [`pages/posts/[slug].js`](pages/posts/[slug].js) through the `globalData` object.
+-   Add More Sections
 
-## Adding new posts
+## Author
 
-All posts are stored in `/posts` directory. To make a new post, create a new file with the [`.mdx` extension](https://mdxjs.com/).
+👤 **Vecna Zmaga**
 
-Since the posts are written in `MDX` format you can pass props and components. That means you can use [React components](https://reactjs.org/docs/components-and-props.html) inside your posts to make them more interactive. Learn more about how to do so in the [MDX docs on content](https://mdxjs.com/docs/using-mdx/#components).
+-   Website: https://hanzla.netlify.app
+-   Twitter: [@vecnazmaga](https://twitter.com/vecnazmaga)
+-   Github: [@vecnazmaga](https://github.com/vecnazmaga)
+-   LinkedIn: [@vecnazmaga](https://linkedin.com/in/vecnazmaga)
 
-https://user-images.githubusercontent.com/3611928/152727802-102ec296-41c8-446d-93ed-922d11187073.mp4
+## Show your support
 
-[alt: video walkthrough of adding a new blog post]
+Give a ⭐️ if this project helped you!
