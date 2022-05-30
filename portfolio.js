@@ -1,12 +1,12 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Avhadeev Alex",
-	title: "This is Avhadeev Alex",
+	name: "Carlos Arthur",
+	title: "This is Carlos Arthur",
 	description:
 		"I'm passionate Full Stack blockchain engineer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
-		"https://cvdesignr.com/p/62662c12a274f?hl=en_GB",
+		"https://resume.io/r/ohLWUgVra",
 };
 
 export const openSource = {
@@ -16,8 +16,8 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	mail: "mailto:avhadeevalex@gmail.com",
-	discord: "https://discord.gg/MjK9DJE5",
+	mail: "mailto:carlosarthur0323@gmail.com",
+	discord: "https://discord.gg/Y7EZXFSjJ7",
 	github: "https://github.com/SuperStar323",
 	telegram: "https://t.me/superstar323",
 	// linkedin: "https://www.linkedin.com/in/vecnazmaga/",
@@ -285,7 +285,7 @@ export const feedbacks = [
 	{
 		name: "Jesper",
 		feedback:
-			"I would highly recommend Alex and his team for a great job and it has been a real pleasure working with them. They respond quickly at all times of the day. Here you won't have to wait several weeks for a response. Can highly recommend this group if you want quality. And it's rare I give reviews only when I really mean it.",
+			"I would highly recommend Arthur and his team for a great job and it has been a real pleasure working with them. They respond quickly at all times of the day. Here you won't have to wait several weeks for a response. Can highly recommend this group if you want quality. And it's rare I give reviews only when I really mean it.",
 	},
 	{
 		name: "Benjamin",
@@ -295,6 +295,6 @@ export const feedbacks = [
 	{
 		name: "Sibeso",
 		feedback:
-			"Alex was Heaven sent. This is the first time I was working with him. Exceptional customer service! I wouldn't have requested for a better Developer than him. His communication was excellent. He always updated me with my project and is creative. He really knows his codes. I know my blockchain game will be a success because of the creative he put into it. His graphics are good and he identified innovative approaches . Definitely working with him again! Blessings to you Alex!",
+			"Arthur was Heaven sent. This is the first time I was working with him. Exceptional customer service! I wouldn't have requested for a better Developer than him. His communication was excellent. He always updated me with my project and is creative. He really knows his codes. I know my blockchain game will be a success because of the creative he put into it. His graphics are good and he identified innovative approaches . Definitely working with him again! Blessings to you Arthur!",
 	},
 ];
